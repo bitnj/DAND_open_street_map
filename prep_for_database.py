@@ -194,11 +194,62 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
     way_nodes = []
     tags = []  # Handle secondary tags the same way for both node and way elements
 
+    tag_detail = {}
     # YOUR CODE HERE
     if element.tag == 'node':
-        node_attribs.add(element.attrib['id'])
+        for key, value in element.attrib.items():
+            if key in node_attr_fields:
+                node_attribs[key] = value
+        
+        for tag in element.findall('tag'):
+            for key, value in tag.attrib.items():
+                tag_detail['id'] = node_attribs['id']
+                if key == 'k':
+                    key_strs = value.split(':')
+                    if len(key_strs) == 1:
+                        tag_detail['key'] = value
+                        tag_detail['type'] = 'regular'
+                    else:
+                        tag_detail['key'] = key_strs[1]
+                        tag_detail['type'] = key_strs[0] 
+                elif key == 'v':
+                    tag_detail['value'] = value 
+            tags.append(tag_detail.copy())
         return {'node': node_attribs, 'node_tags': tags}
     elif element.tag == 'way':
+        for key, value in element.attrib.items():
+            if key in way_attr_fields:
+                way_attribs[key] = value
+        for tag in element.findall('tag'):
+            for key, value in tag.attrib.items():
+                tag_detail['id'] = way_attribs['id']
+                if key == 'k':
+                    key_strs = value.split(':')
+                    if len(key_strs) == 1:
+                        tag_detail['key'] = value
+                        tag_detail['type'] = 'regular'
+                    else:
+                        if len(key_strs) == 3:
+                            tag_detail['key'] = key_strs[1] + ':' + key_strs[2]
+                            tag_detail['type'] = key_strs[0] 
+                        else:
+                            tag_detail['key'] = key_strs[1]
+                            tag_detail['type'] = key_strs[0] 
+                elif key == 'v':
+                    tag_detail['value'] = value 
+            tags.append(tag_detail.copy())
+                
+        tag_detail = {}
+        i = 0
+        for tag in element.findall('nd'):
+            for key, value in tag.attrib.items():
+                tag_detail['id'] = way_attribs['id']
+                if key == 'ref':
+                    tag_detail['node_id'] = value
+                    tag_detail['position'] = i
+                    i += 1
+            way_nodes.append(tag_detail.copy())
+
         return {'way': way_attribs, 'way_nodes': way_nodes, 'way_tags': tags}
 
 
@@ -231,7 +282,8 @@ class UnicodeDictWriter(csv.DictWriter, object):
 
     def writerow(self, row):
         super(UnicodeDictWriter, self).writerow({
-            k: (v.encode('utf-8') if isinstance(v, unicode) else v) for k, v in row.iteritems()
+            k: (v.encode('utf-8') if isinstance(v, str) else v) for k, v in
+            row.iteritems()
         })
 
     def writerows(self, rows):
