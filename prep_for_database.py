@@ -164,7 +164,7 @@ import cerberus
 
 import schema
 
-OSM_PATH = "example.osm"
+OSM_PATH = "edinburgh_sample00"
 
 NODES_PATH = "nodes.csv"
 NODE_TAGS_PATH = "nodes_tags.csv"
@@ -197,46 +197,19 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
     tag_detail = {}
     # YOUR CODE HERE
     if element.tag == 'node':
-        for key, value in element.attrib.items():
-            if key in node_attr_fields:
-                node_attribs[key] = value
+        node_attribs = populate_attributes(element, NODE_FIELDS)
         
-        for tag in element.findall('tag'):
-            for key, value in tag.attrib.items():
-                tag_detail['id'] = node_attribs['id']
-                if key == 'k':
-                    key_strs = value.split(':')
-                    if len(key_strs) == 1:
-                        tag_detail['key'] = value
-                        tag_detail['type'] = 'regular'
-                    else:
-                        tag_detail['key'] = key_strs[1]
-                        tag_detail['type'] = key_strs[0] 
-                elif key == 'v':
-                    tag_detail['value'] = value 
+        tag_detail = populate_tags(element, node_attribs['id'])
+        if tag_detail:
             tags.append(tag_detail.copy())
+        
         return {'node': node_attribs, 'node_tags': tags}
+    
     elif element.tag == 'way':
-        for key, value in element.attrib.items():
-            if key in way_attr_fields:
-                way_attribs[key] = value
-        for tag in element.findall('tag'):
-            for key, value in tag.attrib.items():
-                tag_detail['id'] = way_attribs['id']
-                if key == 'k':
-                    key_strs = value.split(':')
-                    if len(key_strs) == 1:
-                        tag_detail['key'] = value
-                        tag_detail['type'] = 'regular'
-                    else:
-                        if len(key_strs) == 3:
-                            tag_detail['key'] = key_strs[1] + ':' + key_strs[2]
-                            tag_detail['type'] = key_strs[0] 
-                        else:
-                            tag_detail['key'] = key_strs[1]
-                            tag_detail['type'] = key_strs[0] 
-                elif key == 'v':
-                    tag_detail['value'] = value 
+        way_attribs = populate_attributes(element, WAY_FIELDS)
+        
+        tag_detail = populate_tags(element, way_attribs['id'])
+        if tag_detail:
             tags.append(tag_detail.copy())
                 
         tag_detail = {}
@@ -254,6 +227,63 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
 
 
 # ================================================== #
+#               User-Defind Helper Functions         #
+# ================================================== #
+# https://stackoverflow.com/questions/196345/how-to-check-if-a-string-in-python-is-in-ascii
+def is_ascii(my_string):
+    if isinstance(my_string, unicode):
+        try:
+            my_string.encode('ascii')
+        except UnicodeEncodeError:
+            return False
+    else:
+        try:
+            my_string.decode('ascii')
+        except UnicodeDecodeError:
+            return False
+    return True
+
+
+# iterates over the elements object and adds entries for any key that is in the
+# list of attr_fields that is passed in
+def populate_attributes(element, attr_fields):
+    attrib_dict = {}
+    for key, value in element.attrib.items():
+        if is_ascii(key) and is_ascii(value):
+            if key in attr_fields:
+                attrib_dict[key] = value
+
+    return attrib_dict
+
+
+# iterates of the element object and adds entries for any tags
+def populate_tags(element, parent_id):
+    tag_detail = {}
+    for tag in element.findall('tag'):
+        for key, value in tag.attrib.items():
+            # include only key value pairs that use only ascii characters
+            if is_ascii(key) and is_ascii(value):
+                tag_detail['id'] = parent_id
+
+                if key == 'k':
+                    key_strs = value.split(':')
+                    if len(key_strs) == 1:
+                        tag_detail['key'] = value
+                        tag_detail['type'] = 'regular'
+                    else:
+                        if len(key_strs) == 3:
+                            tag_detail['key'] = key_strs[1] + ':' + key_strs[2]
+                            tag_detail['type'] = key_strs[0]
+                        else:
+                            tag_detail['key'] = key_strs[1]
+                            tag_detail['type'] = key_strs[0]
+                elif key == 'v':
+                    tag_detail['value'] = value
+
+    return tag_detail
+
+
+# ================================================== #
 #               Helper Functions                     #
 # ================================================== #
 def get_element(osm_file, tags=('node', 'way', 'relation')):
@@ -268,13 +298,15 @@ def get_element(osm_file, tags=('node', 'way', 'relation')):
 
 
 def validate_element(element, validator, schema=SCHEMA):
-    """Raise ValidationError if element does not match schema"""
-    if validator.validate(element, schema) is not True:
-        field, errors = next(validator.errors.iteritems())
-        message_string = "\nElement of type '{0}' has the following errors:\n{1}"
-        error_string = pprint.pformat(errors)
+    """""Modified to just return True or False"""
+    return validator.validate(element, schema)
+    
+    #if validator.validate(element, schema) is not True:
+    #    field, errors = next(validator.errors.iteritems())
+    #    message_string = "\nElement of type '{0}' has the following errors:\n{1}"
+    #    error_string = pprint.pformat(errors)
         
-        raise Exception(message_string.format(field, error_string))
+    #    raise Exception(message_string.format(field, error_string))
 
 
 class UnicodeDictWriter(csv.DictWriter, object):
@@ -321,15 +353,14 @@ def process_map(file_in, validate):
             el = shape_element(element)
             if el:
                 if validate is True:
-                    validate_element(el, validator)
-
-                if element.tag == 'node':
-                    nodes_writer.writerow(el['node'])
-                    node_tags_writer.writerows(el['node_tags'])
-                elif element.tag == 'way':
-                    ways_writer.writerow(el['way'])
-                    way_nodes_writer.writerows(el['way_nodes'])
-                    way_tags_writer.writerows(el['way_tags'])
+                    if validate_element(el, validator):
+                        if element.tag == 'node':
+                            nodes_writer.writerow(el['node'])
+                            node_tags_writer.writerows(el['node_tags'])
+                        elif element.tag == 'way':
+                            ways_writer.writerow(el['way'])
+                            way_nodes_writer.writerows(el['way_nodes'])
+                            way_tags_writer.writerows(el['way_tags'])
 
 
 if __name__ == '__main__':
