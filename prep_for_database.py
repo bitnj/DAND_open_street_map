@@ -164,7 +164,7 @@ import cerberus
 
 import schema
 
-OSM_PATH = "edinburgh_sample00"
+OSM_PATH = "edinburgh_scotland_subset.osm"
 
 NODES_PATH = "nodes.csv"
 NODE_TAGS_PATH = "nodes_tags.csv"
