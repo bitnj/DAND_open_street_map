@@ -145,7 +145,7 @@ id,key,value,type
 2956327,oneway,yes,regular
 2956327,source,Bing,regular
 2956327,surface,paved,regular
-2956327,wikipedia,en:George Street Edinburgh,regular
+2956327,wikipedia,"en:George Street, Edinburgh",regular
 2956329,highway,unclassified,regular
 2956329,lit,yes,regular
 2956329,maxspeed,20 mph,regular
@@ -153,7 +153,7 @@ id,key,value,type
 2956329,oneway,yes,regular
 2956329,source,Bing,regular
 2956329,surface,paved,regular
-2956329,wikipedia,en:George Street Edinburgh,regular
+2956329,wikipedia,"en:George Street, Edinburgh",regular
 2956332,highway,primary,regular
 2956332,lit,yes,regular
 2956332,maxspeed,20 mph,regular
@@ -382,7 +382,7 @@ id,key,value,type
 3992691,oneway,yes,regular
 3992691,source,Bing,regular
 3992691,surface,paved,regular
-3992691,wikipedia,en:George Street Edinburgh,regular
+3992691,wikipedia,"en:George Street, Edinburgh",regular
 3992692,highway,unclassified,regular
 3992692,lit,yes,regular
 3992692,maxspeed,20 mph,regular
@@ -390,7 +390,7 @@ id,key,value,type
 3992692,oneway,yes,regular
 3992692,source,Bing,regular
 3992692,surface,paved,regular
-3992692,wikipedia,en:George Street Edinburgh,regular
+3992692,wikipedia,"en:George Street, Edinburgh",regular
 3992693,highway,unclassified,regular
 3992693,lit,yes,regular
 3992693,maxspeed,20 mph,regular
@@ -398,7 +398,7 @@ id,key,value,type
 3992693,oneway,yes,regular
 3992693,source,Bing,regular
 3992693,surface,paved,regular
-3992693,wikipedia,en:George Street Edinburgh,regular
+3992693,wikipedia,"en:George Street, Edinburgh",regular
 3992694,highway,unclassified,regular
 3992694,lit,yes,regular
 3992694,maxspeed,20 mph,regular
@@ -406,7 +406,7 @@ id,key,value,type
 3992694,oneway,yes,regular
 3992694,source,Bing,regular
 3992694,surface,paved,regular
-3992694,wikipedia,en:George Street Edinburgh,regular
+3992694,wikipedia,"en:George Street, Edinburgh",regular
 3993976,highway,tertiary,regular
 3993976,junction,roundabout,regular
 3993976,lit,yes,regular
@@ -1481,7 +1481,7 @@ id,key,value,type
 4242251,disabled,6,capacity
 4242251,parent,12,capacity
 4242251,lit,yes,regular
-4242251,name,Disabled Parent & Child Parking,regular
+4242251,name,"Disabled, Parent & Child Parking",regular
 4242251,parking,surface,regular
 4242251,source,Bing,regular
 4242251,surface,asphalt,regular
@@ -3519,7 +3519,7 @@ id,key,value,type
 4943952,building,yes,regular
 4943952,leisure,sports_centre,regular
 4943952,name,Royal Commonwealth Pool,regular
-4943952,opening_hours,Mo-Fr 05:30-22:00,regular
+4943952,opening_hours,Mo-Fr 05:30-22:00;Sa 05:30-20:00;Su 07:30-20:00,regular
 4943952,phone,+44 131 667 7211,regular
 4943952,source,Bing,regular
 4943952,sport,swimming,regular
@@ -3667,7 +3667,7 @@ id,key,value,type
 5018637,lit,yes,regular
 5018637,maxspeed,20 mph,regular
 5018637,name,Guse Dub,regular
-5018637,note,There is a sign with this odd name although I have no idea what it means.,regular
+5018637,note,"There is a sign with this odd name, although I have no idea what it means.",regular
 5018637,oneway,yes,regular
 5018637,source,Bing,regular
 5018638,highway,footway,regular
@@ -3875,7 +3875,7 @@ id,key,value,type
 5119985,lit,yes,regular
 5119985,maxspeed,30 mph,regular
 5119985,name,Merchiston Bank Avenue,regular
-5119985,note,Does not seem to be included in 20mph zone no signage,regular
+5119985,note,"Does not seem to be included in 20mph zone, no signage",regular
 5119985,sidewalk,none,regular
 5119985,surface,asphalt,regular
 5119987,highway,residential,regular
@@ -4182,7 +4182,7 @@ id,key,value,type
 5325202,building,university,regular
 5325202,levels,4,building
 5325202,ele,90,regular
-5325202,name,College of Arts Humanities and Social Sciences,regular
+5325202,name,"College of Arts, Humanities and Social Sciences",regular
 5325202,operator,University of Edinburgh,regular
 5325202,source,local knowledge,regular
 5325202,website,http://www.ed.ac.uk/arts-humanities-soc-sci,regular
@@ -4205,7 +4205,7 @@ id,key,value,type
 5326815,edinburgh_fringe,Gilded Balloon Teviot,regular
 5326815,name,Teviot,regular
 5326815,note,opening: 19 October 1889,regular
-5326815,postal_code,EH8 9AL,regular
+5326815,postcode,EH8 9AL,regular
 5326815,source,NLS_OS_Edinburgh_map_1940s,regular
 5326815,start_date,1887,regular
 5326815,website,https://www.eusa.ed.ac.uk/eatdrink/teviot/bars-and-cafes/,regular
@@ -4526,7 +4526,7 @@ id,key,value,type
 5648757,amenity,school,regular
 5648757,name,George Heriot's School,regular
 5648757,operator,independent,regular
-5648757,postal_code,EH3 9EQ,regular
+5648757,postcode,EH3 9EQ,regular
 5648757,seedcode,5583535,ref
 5648757,source,NLS_OS_Edinburgh_map_1940s,regular
 5648757,website,http://www.george-heriots.com/,regular
@@ -5063,7 +5063,7 @@ id,key,value,type
 22412844,building,yes,regular
 22412844,historic,monument,regular
 22412844,name,National Monument of Scotland,regular
-22412844,note,"Scotland's national memorial to the Scottish soldiers and sailors who died fighting in the Napoleonic Wars. Sometimes otherwise referred to as ""Scotland's Disgrace"" ""Edinburgh's Disgrace"" ""the Pride and Poverty of Scotland"" and ""Edinburgh's Folly""",regular
+22412844,note,"Scotland's national memorial to the Scottish soldiers and sailors who died fighting in the Napoleonic Wars. Sometimes otherwise referred to as ""Scotland's Disgrace"", ""Edinburgh's Disgrace"", ""the Pride and Poverty of Scotland"" and ""Edinburgh's Folly""",regular
 22412844,source,Bing,regular
 22412844,tourism,attraction,regular
 22412844,wikipedia,en:National Monument of Scotland,regular
@@ -5184,7 +5184,7 @@ id,key,value,type
 22939437,sidewalk,both,regular
 22939437,source,Bing,regular
 22939437,surface,asphalt,regular
-22939437,lanes,left,turn:backward
+22939437,lanes,left;through|through,turn:backward
 22939444,highway,primary,regular
 22939444,lit,yes,regular
 22939444,maxspeed,20 mph,regular
@@ -5457,7 +5457,7 @@ id,key,value,type
 23126407,name,Lynedoch Place,regular
 23126407,ref,A90,regular
 23126407,source,Bing,regular
-23126407,lanes,through|through,turn:backward
+23126407,lanes,through|through;right,turn:backward
 23126407,lanes,through|through|right,turn:forward
 23130307,highway,service,regular
 23130307,name,William Street North East Lane,regular
@@ -5568,7 +5568,7 @@ id,key,value,type
 23186618,maxspeed,20 mph,regular
 23186618,name,Queen Street,regular
 23186618,note,should probably be represented as dual lines,regular
-23186618,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+23186618,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 23186618,sidewalk,both,regular
 23186618,source,Bing,regular
 23186618,lanes,through|through|right,turn:forward
@@ -5625,9 +5625,9 @@ id,key,value,type
 23210269,maxspeed,20 mph,regular
 23210269,name,Queen Street,regular
 23210269,note,should probably be represented as dual lines,regular
-23210269,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+23210269,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 23210269,source,Bing,regular
-23210269,lanes,through|through,turn:backward
+23210269,lanes,through|through;right,turn:backward
 23210439,cycleway,lane,regular
 23210439,highway,tertiary,regular
 23210439,maxspeed,20 mph,regular
@@ -5975,7 +5975,7 @@ id,key,value,type
 24148655,source,NLS_OS_Edinburgh_map_1940s,regular
 24148905,leisure,pitch,regular
 24148905,source,Bing,regular
-24148905,sport,basketball,regular
+24148905,sport,basketball;soccer,regular
 24148905,surface,asphalt,regular
 24160713,foot,yes,regular
 24160713,highway,footway,regular
@@ -6113,7 +6113,7 @@ id,key,value,type
 26164868,covered,yes,regular
 26164868,leisure,swimming_pool,regular
 26164868,name,Warrender Swim Centre,regular
-26164868,opening_hours,Mo-Fr 07:00-22:00,regular
+26164868,opening_hours,Mo-Fr 07:00-22:00; Sa 08:30-17:00; Su 09:00-18:00,regular
 26164868,operator,Edinburgh Leisure,regular
 26164868,phone,+44 131 447 0052,regular
 26164868,source,NLS_OS_Edinburgh_map_1940s,regular
@@ -6673,7 +6673,7 @@ id,key,value,type
 26745451,name,Bristo Square,not
 26745451,note,OS data has this down as Bristo Square which doesn't seem right. Edinburgh Council has this as Marshall Street. There are no street name signs.,regular
 26745451,source,Bing,regular
-26745451,url,http://geo.nls.uk/maps/towns/edinburgh1893/openlayers.html?zoom=17&lat=55.94556&lon=-3.18706&layers=00000B0T,regular
+26745451,website,http://geo.nls.uk/maps/towns/edinburgh1893/openlayers.html?zoom=17&lat=55.94556&lon=-3.18706&layers=00000B0T,regular
 26921976,highway,steps,regular
 26921976,source,Bing,regular
 26921980,highway,footway,regular
@@ -6837,7 +6837,7 @@ id,key,value,type
 27279659,amenity,library,regular
 27279659,building,yes,regular
 27279659,name,Map Library,regular
-27279659,opening_hours,Mo-Tu 09:30-17:00,regular
+27279659,opening_hours,Mo-Tu 09:30-17:00; We 10:00-17:00; Th-Fr 09:30-17:00; Sa 09:30-13:00,regular
 27279659,operator,National Library of Scotland,regular
 27279659,source,Bing,regular
 27279764,leisure,pitch,regular
@@ -7120,7 +7120,7 @@ id,key,value,type
 30971801,building,yes,regular
 30971801,denomination,sunni,regular
 30971801,name,Edinburgh Central Mosque,regular
-30971801,postal_code,EH8 9BT,regular
+30971801,postcode,EH8 9BT,regular
 30971801,religion,muslim,regular
 30971801,source,Bing,regular
 30971801,wheelchair,no,regular
@@ -7165,7 +7165,7 @@ id,key,value,type
 32558641,note,a sign of the e-Science Institute is still displayed outside but doesn't seem to be active anymore,regular
 32558641,phone,+44 131 650 9831,regular
 32558641,source,NLS_OS_Edinburgh_map_1940s,regular
-32558641,url,http://www.icms.org.uk/,regular
+32558641,website,http://www.icms.org.uk/,regular
 32558641,wikipedia,en:International Centre for Mathematical Sciences,regular
 32558648,city,Edinburgh,addr
 32558648,housenumber,25,addr
@@ -7274,7 +7274,7 @@ id,key,value,type
 33812709,oneway,yes,regular
 33812709,source,Bing,regular
 33812709,surface,paved,regular
-33812709,wikipedia,en:George Street Edinburgh,regular
+33812709,wikipedia,"en:George Street, Edinburgh",regular
 33897132,highway,steps,regular
 33897134,highway,footway,regular
 33897134,surface,gravel,regular
@@ -7758,7 +7758,7 @@ id,key,value,type
 41225011,street,Dalry Road,addr
 41225011,building,retail,regular
 41225011,name,Lidl,regular
-41225011,opening_hours,Mo-Sa 08:00-22:00,regular
+41225011,opening_hours,Mo-Sa 08:00-22:00; Su 09:00-22:00,regular
 41225011,shop,supermarket,regular
 41225012,access,permissive,regular
 41225012,amenity,parking,regular
@@ -7938,7 +7938,7 @@ id,key,value,type
 41378400,source,NLS_OS_Edinburgh_map_1940s,regular
 41378401,building,apartments,regular
 41378401,levels,5,building
-41378401,source,Bing survey,regular
+41378401,source,"Bing, survey",regular
 41378402,building,yes,regular
 41378402,source,NLS_OS_Edinburgh_map_1940s,regular
 41378403,building,yes,regular
@@ -8009,7 +8009,7 @@ id,key,value,type
 41424393,denomination,presbyterian,regular
 41424393,name,Buccleuch Free Church of Scotland,regular
 41424393,religion,christian,regular
-41424393,url,http://www.buccleuchfreechurch.co.uk/,regular
+41424393,website,http://www.buccleuchfreechurch.co.uk/,regular
 41424393,wheelchair,yes,regular
 41424394,building,yes,regular
 41424395,building,yes,regular
@@ -8084,7 +8084,7 @@ id,key,value,type
 41453242,source,Bing,regular
 41453243,building,yes,regular
 41453243,levels,4,building
-41453243,source,bing survey,regular
+41453243,source,"bing, survey",regular
 41453251,building,yes,regular
 41453251,source,Bing,regular
 41453252,building,apartments,regular
@@ -8916,7 +8916,7 @@ id,key,value,type
 41982458,amenity,community_centre,regular
 41982458,building,yes,regular
 41982458,name,South Bridge Resource and Education Centre,regular
-41982458,opening_hours,Mo-Th 08:00-21:30,regular
+41982458,opening_hours,Mo-Th 08:00-21:30; Fr 08:00-16:30; Sa 09:00-12:30,regular
 41982458,operator,City of Edinburgh Council,regular
 41982458,phone,+44 131 556 2944,regular
 41982458,source,NLS_OS_Edinburgh_map_1940,regular
@@ -8932,7 +8932,7 @@ id,key,value,type
 41986173,operator,SP Distribution,regular
 41986173,power,substation,regular
 41986173,source,NLS_OS_Edinburgh_map_1940,regular
-41986173,voltage,33000,regular
+41986173,voltage,33000;11000,regular
 41986174,building,yes,regular
 41986174,source,NLS_OS_Edinburgh_map_1940,regular
 41986175,building,yes,regular
@@ -9022,7 +9022,7 @@ id,key,value,type
 42121790,amenity,library,regular
 42121790,building,yes,regular
 42121790,name,Central Library,regular
-42121790,opening_hours,Mo-We 10:00-20:00,regular
+42121790,opening_hours,Mo-We 10:00-20:00; Th-Sa 10:00-17:00,regular
 42121790,phone,+44 131 242 8000,regular
 42121790,source,survey,regular
 42121791,city,Edinburgh,addr
@@ -9759,10 +9759,10 @@ id,key,value,type
 42969074,building,church,regular
 42969074,denomination,free_church,regular
 42969074,name,St Columba's,regular
-42969074,postal_code,EH1 2PW,regular
+42969074,postcode,EH1 2PW,regular
 42969074,religion,christian,regular
 42969074,source,Bing,regular
-42969074,url,http://www.stcolumbas.info/,regular
+42969074,website,http://www.stcolumbas.info/,regular
 42969075,building,yes,regular
 42969075,source,Bing,regular
 42969076,building,yes,regular
@@ -10758,7 +10758,7 @@ id,key,value,type
 54487560,name,Home Street,regular
 54487560,ref,A702,regular
 54487560,source,Bing,regular
-54487560,lanes,sharp_left,turn:forward
+54487560,lanes,sharp_left;slight_left|slight_left|slight_right,turn:forward
 54487606,highway,primary,regular
 54487606,backward,4,lanes
 54487606,forward,2,lanes
@@ -10880,7 +10880,7 @@ id,key,value,type
 56995095,name,Queensferry Road,regular
 56995095,ref,A90,regular
 56995095,source,Bing,regular
-56995095,lanes,left,turn:backward
+56995095,lanes,left;through|right,turn:backward
 56995096,access,no,regular
 56995096,bicycle,designated,regular
 56995096,bus,designated,regular
@@ -10986,7 +10986,7 @@ id,key,value,type
 60712780,source,Bing,regular
 60712781,building,yes,regular
 60712782,building,university,regular
-60712782,note,Closed at this location Nov 2016 planned to reopen at McDonald Road in 2018,regular
+60712782,note,"Closed at this location Nov 2016, planned to reopen at McDonald Road in 2018",regular
 60712782,old_name,The Museum of Fire,regular
 60712782,operator,University of Edinburgh,regular
 60712782,source,NLS_OS_Edinburgh_map_1940s,regular
@@ -11184,7 +11184,7 @@ id,key,value,type
 61820347,religion,christian,regular
 61820347,source,NLS_OS_Edinburgh_map_1940s,regular
 61820347,wheelchair,limited,regular
-61820347,description,There's one room above the narthex which is sometimes let but the rest including toilet is accessible to wheelchairs.,wheelchair
+61820347,description,"There's one room above the narthex which is sometimes let, but the rest, including toilet is accessible to wheelchairs.",wheelchair
 61820348,barrier,wall,regular
 61820348,source,survey,regular
 61820349,building,house,regular
@@ -11257,7 +11257,7 @@ id,key,value,type
 62061248,source,NLS_OS_Edinburgh_map_1940s,regular
 62061248,tourism,attraction,regular
 62061248,website,http://www.stjohns-edinburgh.org.uk/,regular
-62061248,wikipedia,en:Church of St John the Evangelist Edinburgh,regular
+62061248,wikipedia,"en:Church of St John the Evangelist, Edinburgh",regular
 62061368,housenumber,5,addr
 62061368,street,Lothian Road,addr
 62061368,es,Iglesia_Saint_Cuthbert,alt_name
@@ -11597,7 +11597,7 @@ id,key,value,type
 70826503,source,Bing,regular
 70826505,building,yes,regular
 70826505,name,Transport for Edinburgh Travelshop,regular
-70826505,shop,bus,regular
+70826505,shop,bus;tram,regular
 70826505,source,Bing,regular
 70826507,building,yes,regular
 70826507,levels,2,building
@@ -12060,7 +12060,7 @@ id,key,value,type
 73090302,building,yes,regular
 73090302,fee,no,regular
 73090302,name,Scottish National Portrait Gallery,regular
-73090302,opening_hours,Mo-Su 10:00-17:00,regular
+73090302,opening_hours,Mo-Su 10:00-17:00; Th 10:00-19:00,regular
 73090302,operator,National Galleries of Scotland,regular
 73090302,source,Bing,regular
 73090302,tourism,gallery,regular
@@ -12098,7 +12098,7 @@ id,key,value,type
 75070752,highway,service,regular
 75070752,name,William Street South East Lane,regular
 75070752,name,South East Lane,not
-75070752,source,OS_OpenData_StreetView Edinburgh Council,regular
+75070752,source,"OS_OpenData_StreetView, Edinburgh Council",regular
 75072066,building,apartments,regular
 75072066,source,NLS_OS_Edinburgh_map_1940s,regular
 75075326,highway,service,regular
@@ -12750,7 +12750,7 @@ id,key,value,type
 94925674,building,yes,regular
 94925674,levels,3,building
 94925674,material,stone,building
-94925674,level,1,regular
+94925674,level,1;2,regular
 94925674,source,Bing,regular
 94925676,access,private,regular
 94925676,highway,service,regular
@@ -13296,7 +13296,7 @@ id,key,value,type
 112317627,building,yes,regular
 112317627,leisure,sports_centre,regular
 112317627,name,Dalry Swim Centre,regular
-112317627,opening_hours,Mo-Fr 07:00-22:00,regular
+112317627,opening_hours,Mo-Fr 07:00-22:00; Sa-Su 09:00-18:00,regular
 112317627,operator,Edinburgh Council,regular
 112317627,source,NLS_OS_Edinburgh_map_1940s,regular
 112317627,sport,swimming,regular
@@ -13390,7 +13390,7 @@ id,key,value,type
 118174209,smoothness,excellent,regular
 118174209,source,Bing,regular
 118174209,surface,paved,regular
-118174209,wikipedia,en:George Street Edinburgh,regular
+118174209,wikipedia,"en:George Street, Edinburgh",regular
 119043186,bicycle,yes,regular
 119043186,cycleway,track,regular
 119043186,foot,yes,regular
@@ -13821,7 +13821,7 @@ id,key,value,type
 130139876,street,Princes Street,addr
 130139876,building,retail,regular
 130139876,name,House of Fraser,regular
-130139876,opening_hours,Mo-Fr 09:30-18:00,regular
+130139876,opening_hours,Mo-Fr 09:30-18:00; Th 09:30-19:00; Sa 09:00-18:00; Su 10:00-17:30,regular
 130139876,shop,department_store,regular
 130139876,source,Bing,regular
 130139879,building,yes,regular
@@ -13873,7 +13873,7 @@ id,key,value,type
 130755057,street,Morningside Road,addr
 130755057,building,yes,regular
 130755057,name,Eric Liddell Centre,regular
-130755057,note,It's run by a Christian organization but this isn't actually used as a church any more.,regular
+130755057,note,"It's run by a Christian organization, but this isn't actually used as a church any more.",regular
 130755057,phone,+44 131 447 4520,regular
 130755057,religion,christian,regular
 130755057,source,NLS_OS_Edinburgh_map_1940s,regular
@@ -14017,9 +14017,9 @@ id,key,value,type
 132911043,maxspeed,20 mph,regular
 132911043,name,Queen Street,regular
 132911043,note,should probably be represented as dual lines,regular
-132911043,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+132911043,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 132911043,source,Bing,regular
-132911043,lanes,left,turn:forward
+132911043,lanes,left;through|through|right,turn:forward
 132911044,highway,tertiary,regular
 132911044,lanes,4,regular
 132911044,backward,2,lanes
@@ -14027,9 +14027,9 @@ id,key,value,type
 132911044,maxspeed,20 mph,regular
 132911044,name,Queen Street,regular
 132911044,note,should probably be represented as dual lines,regular
-132911044,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+132911044,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 132911044,source,Bing,regular
-132911044,lanes,left,turn:backward
+132911044,lanes,left;through|through,turn:backward
 134975990,amenity,grave_yard,regular
 134975990,name,Jewish Burial Grounds,regular
 134975990,religion,jewish,regular
@@ -14322,7 +14322,7 @@ id,key,value,type
 140058874,int_name,Salisbury Church,regular
 140058874,name,Cotterell & Co,regular
 140058874,old_name,Newington UP Church,regular
-140058874,opening_hours,Mo-Fr 09:30-17:30,regular
+140058874,opening_hours,Mo-Fr 09:30-17:30; Sa 10:00-17:00; Su 11:00-17:00,regular
 140058874,shop,doityourself,regular
 140058874,source,NLS_OS_Edinburgh_map_1940s,regular
 140058874,website,http://www.cotterellandco.com/,regular
@@ -14500,9 +14500,9 @@ id,key,value,type
 150341660,building,apartments,regular
 150341660,source,NLS_OS_Edinburgh_map_1940s,regular
 150517014,barrier,fence,regular
-150517014,note,consisting of metal chains acting as a handrail,regular
+150517014,note,"consisting of metal chains, acting as a handrail",regular
 150517016,barrier,fence,regular
-150517016,note,consisting of metal chains acting as a handrail,regular
+150517016,note,"consisting of metal chains, acting as a handrail",regular
 151347245,landuse,orchard,regular
 151347245,name,Acheson House Community Garden Orchard,regular
 152497860,building,apartments,regular
@@ -15053,7 +15053,7 @@ id,key,value,type
 164545444,historic,monument,regular
 164545444,name,The Mercat Cross,regular
 164545444,source,NLS_OS_Edinburgh_map_1940s,regular
-164545444,en,Mercat Cross Edinburgh,wikipedia
+164545444,en,"Mercat Cross, Edinburgh",wikipedia
 164545445,building,yes,regular
 164545445,source,Bing,regular
 164546787,building,yes,regular
@@ -17216,7 +17216,7 @@ id,key,value,type
 184267420,amenity,pub,regular
 184267420,building,yes,regular
 184267420,name,The Golf Tavern,regular
-184267420,opening_hours,Mo-Fr 11:30-01:00,regular
+184267420,opening_hours,Mo-Fr 11:30-01:00;Sa-Su 10:00-01:00,regular
 184267420,phone,+44 131 221 5221,regular
 184267420,source,NLS_OS_Edinburgh_map_1940s,regular
 184267420,website,http://www.thegolftavern.co.uk/,regular
@@ -18231,7 +18231,7 @@ id,key,value,type
 203428676,building,apartments,regular
 203428676,source,NLS_OS_Edinburgh_map_1940s,regular
 203428677,building,apartments,regular
-203428677,note,This building is the number 17 Caledonian Street. The entrance is nevertheless on the edge of the other building.,regular
+203428677,note,"This building is the number 17, Caledonian Street. The entrance is nevertheless on the edge of the other building.",regular
 203428677,source,NLS_OS_Edinburgh_map_1940s,regular
 203428678,building,apartments,regular
 203428678,source,NLS_OS_Edinburgh_map_1940s,regular
@@ -18663,7 +18663,7 @@ id,key,value,type
 205960440,right,Melville Place,name
 205960440,ref,A90,regular
 205960440,source,Bing,regular
-205960440,lanes,left,turn:forward
+205960440,lanes,left;through|right,turn:forward
 205986679,highway,residential,regular
 205986679,maxspeed,20 mph,regular
 205986679,name,Sutherland Street,regular
@@ -19017,7 +19017,7 @@ id,key,value,type
 214794063,source,Bing,regular
 214794064,building,yes,regular
 214794064,name,Edinburgh Taxi Services,regular
-214794064,note,wash prepair and repair apparently only taxis,regular
+214794064,note,"wash, prepair and repair apparently only taxis",regular
 214794064,shop,car_repair,regular
 214794064,source,Bing,regular
 215466655,bicycle,yes,regular
@@ -20278,7 +20278,7 @@ id,key,value,type
 225981215,postcode,EH8 9LD,addr
 225981215,street,George Square,addr
 225981215,building,university,regular
-225981215,description,include School of Scottish Studies Archives Celtic and Scottish Studies (Ceiltis agus Eolas na h-Alba),regular
+225981215,description,"include School of Scottish Studies Archives, Celtic and Scottish Studies (Ceiltis agus Eolas na h-Alba)",regular
 225981215,name,School of Scottish Studies,regular
 225981215,source,survey,regular
 225997712,alt_name,Waverley,regular
@@ -21646,7 +21646,7 @@ id,key,value,type
 236957679,CREATED,Fri Nov 26 00:00:00 GMT 2010,regular
 236957679,DESIG,1987,regular
 236957679,DES_REF,CA41,regular
-236957679,DES_TITLE,MARCHMONT MEADOWS & BRUNTSFIELD,regular
+236957679,DES_TITLE,"MARCHMONT, MEADOWS & BRUNTSFIELD",regular
 236957679,LINK,http://www.edinburgh.gov.uk/directory_record/10206/marchmont_meadows_and_bruntsfield_conservation_area,regular
 236957679,PRECISION,WITHIN 5 METRES,regular
 236957679,REDESIG,2007,regular
@@ -21655,7 +21655,7 @@ id,key,value,type
 236957679,Y,672480,regular
 236957679,boundary,protected_area,regular
 236957679,protection_class,22,regular
-236957679,protection_title,Marchmont Meadows & Bruntsfield,regular
+236957679,protection_title,"Marchmont, Meadows & Bruntsfield",regular
 236957693,ACCURACY,Digitised from designation map based on OS Mapping. See COMPILER's maps for details.,regular
 236957693,AREA,3288341.89871,regular
 236957693,AREA_ha,328.834189871,regular
@@ -22545,7 +22545,7 @@ id,key,value,type
 242732804,maxspeed,20 mph,regular
 242732804,name,Queen Street,regular
 242732804,note,should probably be represented as dual lines,regular
-242732804,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+242732804,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 242732804,source,Bing,regular
 242732804,surface,asphalt,regular
 242737761,bus,yes,regular
@@ -24144,7 +24144,7 @@ id,key,value,type
 248993062,bicycle,designated,regular
 248993062,highway,cycleway,regular
 248993062,name,Union Canal Towpath,regular
-248993062,ncn_ref,75,regular
+248993062,ncn_ref,75;754,regular
 248993062,segregated,no,regular
 248993062,source,Bing,regular
 248993062,surface,paved,regular
@@ -25176,7 +25176,7 @@ id,key,value,type
 256067269,gd,Holyrood,name
 256067269,sco,Halyruid,name
 256067269,place,neighbourhood,regular
-256067274,is_in,Edinburgh Scotland UK,regular
+256067274,is_in,"Edinburgh, Scotland, UK",regular
 256067274,name,Marchmont,regular
 256067274,place,suburb,regular
 256067274,wikipedia,en:Marchmont,regular
@@ -25277,7 +25277,7 @@ id,key,value,type
 256344612,amenity,post_depot,regular
 256344612,building,yes,regular
 256344612,name,Edinburgh South Delivery Office,regular
-256344612,opening_hours,Mo-Tu 06:00-12:30 We 08:00-20:00 Th-Fr 06:00-12:30 Sa 08:00-14:00,regular
+256344612,opening_hours,"Mo-Tu 06:00-12:30, We 08:00-20:00, Th-Fr 06:00-12:30, Sa 08:00-14:00",regular
 256344612,source,NLS_OS_Edinburgh_map_1940s,regular
 256344614,building,detached,regular
 256344614,source,NLS_OS_Edinburgh_map_1940s,regular
@@ -25524,7 +25524,7 @@ id,key,value,type
 259067187,source,Bing,regular
 259067386,building,yes,regular
 259067386,name,Museum of Edinburgh,regular
-259067386,opening_hours,Mo-Sa 10:00-17:00,regular
+259067386,opening_hours,Mo-Sa 10:00-17:00; Aug: Su 12:00-17:00,regular
 259067386,operator,City of Edinburgh Council,regular
 259067386,source,Bing,regular
 259067386,tourism,museum,regular
@@ -26759,7 +26759,7 @@ id,key,value,type
 261834667,source,NLS_OS_Edinburgh_map_1940s,regular
 261856576,landuse,construction,regular
 261856576,name,Woodcroft,regular
-261856576,operator,Queensberry,regular
+261856576,operator,Queensberry;Telereal Trillium,regular
 261856576,source,survey,regular
 261892565,highway,steps,regular
 261892565,incline,down,regular
@@ -32792,7 +32792,7 @@ id,key,value,type
 282961693,building,yes,regular
 282961693,source,Bing,regular
 282961695,building,residential,regular
-282961695,note,apparently former number 2C Chamberlain Road according to the semi-destroyed plaque,regular
+282961695,note,"apparently former number 2C, Chamberlain Road, according to the semi-destroyed plaque",regular
 282961695,source,Bing,regular
 282961696,building,yes,regular
 282961696,source,Bing,regular
@@ -34391,7 +34391,7 @@ id,key,value,type
 285945507,source,NLS_OS_Edinburgh_map_1940s,regular
 285945507,website,http://www.stmichaelandallsaints.org/,regular
 285945507,wheelchair,yes,regular
-285945507,description,Entrance main body of building and toilets -- fully accessible,wheelchair
+285945507,description,"Entrance, main body of building and toilets -- fully accessible",wheelchair
 285945508,building,house,regular
 285945508,levels,1,building
 285945508,material,sandstone,building
@@ -34639,7 +34639,7 @@ id,key,value,type
 286164901,building,residential,regular
 286164901,levels,6,building
 286164901,name,Canal Point,regular
-286164901,note,Drawn after survey but w/out imagery,regular
+286164901,note,"Drawn after survey, but w/out imagery",regular
 286193218,waterway,stream,regular
 286277046,building,yes,regular
 286277046,source,Bing,regular
@@ -37328,7 +37328,7 @@ id,key,value,type
 289545759,building,yes,regular
 289545759,levels,7,building
 289545759,material,glass,building
-289545759,note,shape approximate details of new building not included,regular
+289545759,note,"shape approximate, details of new building not included",regular
 289545759,source,survey,regular
 289545760,building,yes,regular
 289545760,levels,5,building
@@ -38884,7 +38884,7 @@ id,key,value,type
 292183376,source,Bing,regular
 292183377,barrier,city_wall,regular
 292183377,historic,citywalls,regular
-292183377,note,according to recent archaeological studies this wall is probably not the King's Wall,regular
+292183377,note,"according to recent archaeological studies, this wall is probably not the King's Wall",regular
 292183377,source,Bing,regular
 292183378,barrier,fence,regular
 292183378,fence_type,metal,regular
@@ -39705,7 +39705,7 @@ id,key,value,type
 293238827,source,bing,regular
 293238828,building,yes,regular
 293238828,levels,4,building
-293238828,source,bing survey,regular
+293238828,source,"bing, survey",regular
 293238829,building,yes,regular
 293238829,levels,1,building
 293238829,levels,1,roof
@@ -39716,7 +39716,7 @@ id,key,value,type
 293238830,source,Bing,regular
 293238832,building,yes,regular
 293238832,levels,4,building
-293238832,source,bing survey,regular
+293238832,source,"bing, survey",regular
 293238834,building,yes,regular
 293238834,levels,2,building
 293238834,source,Bing,regular
@@ -39736,19 +39736,19 @@ id,key,value,type
 293238840,source,Bing,regular
 293238843,building,yes,regular
 293238843,levels,4,building
-293238843,source,bing survey,regular
+293238843,source,"bing, survey",regular
 293293073,building,yes,regular
 293293073,levels,2,building
-293293073,source,bing survey,regular
+293293073,source,"bing, survey",regular
 293293074,building,yes,regular
 293293074,source,Bing,regular
 293293075,building,yes,regular
 293293075,levels,4,building
-293293075,source,bing survey,regular
+293293075,source,"bing, survey",regular
 293293076,source,bing,regular
 293293077,building,yes,regular
 293293077,levels,3,building
-293293077,source,bing survey,regular
+293293077,source,"bing, survey",regular
 293293078,building,yes,regular
 293293078,source,Bing,regular
 293293079,building,residential,regular
@@ -39762,13 +39762,13 @@ id,key,value,type
 293293080,website,http://www.theengineshed.org/,regular
 293293081,building,yes,regular
 293293081,levels,3,building
-293293081,source,bing survey,regular
+293293081,source,"bing, survey",regular
 293293082,building,yes,regular
 293293082,levels,4,building
-293293082,source,bing survey,regular
+293293082,source,"bing, survey",regular
 293293083,building,yes,regular
 293293083,levels,3,building
-293293083,source,bing survey,regular
+293293083,source,"bing, survey",regular
 293293084,building,yes,regular
 293293084,source,Bing,regular
 293293085,building,yes,regular
@@ -39778,7 +39778,7 @@ id,key,value,type
 293293086,source,NLS_OS_Edinburgh_map_1940,regular
 293293087,building,yes,regular
 293293087,levels,4,building
-293293087,source,bing survey,regular
+293293087,source,"bing, survey",regular
 293293088,building,apartments,regular
 293293088,levels,4,building
 293293088,source,NLS_OS_Edinburgh_map_1940,regular
@@ -39792,7 +39792,7 @@ id,key,value,type
 293293093,source,Bing,regular
 293293094,building,yes,regular
 293293094,levels,4,building
-293293094,source,bing survey,regular
+293293094,source,"bing, survey",regular
 293293095,building,yes,regular
 293293095,source,Bing,regular
 293293096,building,yes,regular
@@ -45551,7 +45551,7 @@ id,key,value,type
 301941504,oneway,yes,regular
 301941504,source,Bing,regular
 301941504,surface,paved,regular
-301941504,wikipedia,en:George Street Edinburgh,regular
+301941504,wikipedia,"en:George Street, Edinburgh",regular
 301941505,highway,tertiary,regular
 301941505,maxspeed,20 mph,regular
 301941505,name,Saint Andrew Square,regular
@@ -45592,7 +45592,7 @@ id,key,value,type
 301944114,oneway,yes,regular
 301944114,source,Bing,regular
 301944114,surface,paved,regular
-301944114,wikipedia,en:George Street Edinburgh,regular
+301944114,wikipedia,"en:George Street, Edinburgh",regular
 301944115,highway,unclassified,regular
 301944115,lit,yes,regular
 301944115,maxspeed,20 mph,regular
@@ -52872,7 +52872,7 @@ id,key,value,type
 309203681,source,Bing,regular
 309403827,area,yes,regular
 309403827,landuse,construction,regular
-309403827,name,159 Fountainbridge Edinburgh,regular
+309403827,name,"159 Fountainbridge, Edinburgh",regular
 309554379,housenumber,7-11,addr
 309554379,street,Hope Street,addr
 309554379,name,Angels Share Hotel,regular
@@ -53417,11 +53417,11 @@ id,key,value,type
 314600291,name,Sir James Young Simpson Memorial,regular
 314600291,wikipedia,en:James Young Simpson,regular
 314600292,historic,memorial,regular
-314600292,inscription,An eloquent preacher of the gospel. Founder of the Edinburgh Original Ragged Industrial Schools and by tongue and pen the apostle of the movement elsewhere. One of the earliest temperance reformers. A friend of the poor and of the oppressed.,regular
+314600292,inscription,"An eloquent preacher of the gospel. Founder of the Edinburgh Original Ragged Industrial Schools, and by tongue and pen, the apostle of the movement elsewhere. One of the earliest temperance reformers. A friend of the poor and of the oppressed.",regular
 314600292,name,Thomas Guthrie Memorial,regular
 314600292,wikipedia,en:Thomas Guthrie,regular
 314699624,historic,memorial,regular
-314699624,name,Memorial to John Fourth Earl of Hopetoun,regular
+314699624,name,"Memorial to John, Fourth Earl of Hopetoun",regular
 314839626,building,yes,regular
 314839626,source,NLS_OS_Edinburgh_map_1940s,regular
 314839627,building,apartments,regular
@@ -53786,7 +53786,7 @@ id,key,value,type
 317396911,landuse,grass,regular
 317396912,landuse,grass,regular
 317650215,amenity,bus_station,regular
-317650215,is_in,Edinburgh UK,regular
+317650215,is_in,"Edinburgh, UK",regular
 317650215,name,Edinburgh Bus Station,regular
 317650215,old_name,St. Andrew Square Bus Station,regular
 317650215,source,Bing,regular
@@ -54048,7 +54048,7 @@ id,key,value,type
 320529436,source,Bing,regular
 320529437,highway,footway,regular
 320529437,name,Portsburgh Square,regular
-320529437,note,the geometry of this path is the real one as there is a fence between the road and the main gate of Portsburgh Square,regular
+320529437,note,"the geometry of this path is the real one, as there is a fence between the road and the main gate of Portsburgh Square",regular
 320529437,source,Bing,regular
 320529438,building,yes,regular
 320529438,source,Bing,regular
@@ -60430,7 +60430,7 @@ id,key,value,type
 328980288,bicycle,designated,regular
 328980288,highway,cycleway,regular
 328980288,name,Union Canal Towpath,regular
-328980288,ncn_ref,75,regular
+328980288,ncn_ref,75;754,regular
 328980288,segregated,no,regular
 328980288,source,NLS_OS_Edinburgh_map_1940s,regular
 328980288,surface,paved,regular
@@ -64444,7 +64444,7 @@ id,key,value,type
 335927692,source,NLS_OS_Edinburgh_map_1940s,regular
 335927695,building,club_house,regular
 335927695,source,NLS_OS_Edinburgh_map_1940s,regular
-335927695,sport,bowls,regular
+335927695,sport,bowls;tennis,regular
 335927697,building,garage,regular
 335927697,source,NLS_OS_Edinburgh_map_1940s,regular
 335927699,building,garage,regular
@@ -69410,7 +69410,7 @@ id,key,value,type
 351413624,building,garage,regular
 351413624,source,Bing,regular
 351413628,building,garage,regular
-351413628,note,position based on survey as not visible on either Bing or NLS_OS maps may not be entirely accurate,regular
+351413628,note,"position based on survey as not visible on either Bing or NLS_OS maps, may not be entirely accurate",regular
 351413628,source,survey,regular
 351413630,building,garage,regular
 351413630,source,Bing,regular
@@ -81601,7 +81601,7 @@ id,key,value,type
 401624433,name,Torphichen Place,regular
 401624433,ref,A8,regular
 401624433,source,Bing,regular
-401624433,lanes,through,turn:forward
+401624433,lanes,through;right|right|right,turn:forward
 401624433,lanes,yes|no|yes|yes,vehicle
 401810853,barrier,fence,regular
 401810854,barrier,retaining_wall,regular
@@ -81839,7 +81839,7 @@ id,key,value,type
 403951935,maxspeed,20 mph,regular
 403951935,name,Brougham Street,regular
 403951935,ref,A700,regular
-403951935,lanes,left,turn:forward
+403951935,lanes,left;through|through;slight_right,turn:forward
 403951937,highway,primary,regular
 403951937,lit,yes,regular
 403951937,maxspeed,20 mph,regular
@@ -82438,7 +82438,7 @@ id,key,value,type
 416330482,source,Bing,regular
 416467931,access,permissive,regular
 416467931,leisure,park,regular
-416467931,note,sign explains that the park belongs to Sciennes Primary but is open to the public outside school hours,regular
+416467931,note,"sign explains that the park belongs to Sciennes Primary, but is open to the public outside school hours",regular
 417081394,building,yes,regular
 417081394,colour,#67B51E,building
 417081394,levels,1,building
@@ -83993,7 +83993,7 @@ id,key,value,type
 443973030,CREATED,Fri Nov 26 00:00:00 GMT 2010,regular
 443973030,DESIG,1987,regular
 443973030,DES_REF,CA41,regular
-443973030,DES_TITLE,MARCHMONT MEADOWS & BRUNTSFIELD,regular
+443973030,DES_TITLE,"MARCHMONT, MEADOWS & BRUNTSFIELD",regular
 443973030,LINK,http://www.edinburgh.gov.uk/directory_record/10206/marchmont_meadows_and_bruntsfield_conservation_area,regular
 443973030,PRECISION,WITHIN 5 METRES,regular
 443973030,REDESIG,2007,regular
@@ -84002,7 +84002,7 @@ id,key,value,type
 443973030,Y,672480,regular
 443973030,boundary,protected_area,regular
 443973030,protection_class,22,regular
-443973030,protection_title,Marchmont Meadows & Bruntsfield,regular
+443973030,protection_title,"Marchmont, Meadows & Bruntsfield",regular
 443973265,access,private,regular
 443973265,leisure,garden,regular
 443973265,source,Bing,regular
@@ -86612,7 +86612,7 @@ id,key,value,type
 465938528,name,Nelson Monument,regular
 465938528,source,Bing,regular
 465938528,tourism,attraction,regular
-465938528,wikipedia,en:Nelson Monument Edinburgh,regular
+465938528,wikipedia,"en:Nelson Monument, Edinburgh",regular
 465938534,material,stone,building
 465938534,part,yes,building
 465938534,height,2,regular
@@ -86811,9 +86811,9 @@ id,key,value,type
 467563938,maxspeed,20 mph,regular
 467563938,name,Queen Street,regular
 467563938,note,should probably be represented as dual lines,regular
-467563938,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+467563938,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 467563938,source,Bing,regular
-467563938,lanes,left,turn:forward
+467563938,lanes,left;through|through,turn:forward
 467563939,highway,tertiary,regular
 467563939,lanes,5,regular
 467563939,backward,2,lanes
@@ -86821,7 +86821,7 @@ id,key,value,type
 467563939,maxspeed,20 mph,regular
 467563939,name,Queen Street,regular
 467563939,note,should probably be represented as dual lines,regular
-467563939,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+467563939,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 467563939,source,Bing,regular
 467563940,highway,tertiary,regular
 467563940,lanes,5,regular
@@ -86830,9 +86830,9 @@ id,key,value,type
 467563940,maxspeed,20 mph,regular
 467563940,name,Queen Street,regular
 467563940,note,should probably be represented as dual lines,regular
-467563940,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+467563940,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 467563940,source,Bing,regular
-467563940,lanes,left,turn:forward
+467563940,lanes,left;through|through|right,turn:forward
 467564194,highway,tertiary,regular
 467564194,lanes,5,regular
 467564194,backward,3,lanes
@@ -86840,9 +86840,9 @@ id,key,value,type
 467564194,maxspeed,20 mph,regular
 467564194,name,Queen Street,regular
 467564194,note,should probably be represented as dual lines,regular
-467564194,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+467564194,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 467564194,source,Bing,regular
-467564194,lanes,left,turn:backward
+467564194,lanes,left;through|through|right,turn:backward
 467564195,highway,tertiary,regular
 467564195,lanes,5,regular
 467564195,backward,2,lanes
@@ -86850,7 +86850,7 @@ id,key,value,type
 467564195,maxspeed,20 mph,regular
 467564195,name,Queen Street,regular
 467564195,note,should probably be represented as dual lines,regular
-467564195,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+467564195,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 467564195,source,Bing,regular
 467564195,lanes,left|through|through,turn:forward
 467564196,highway,tertiary,regular
@@ -86860,7 +86860,7 @@ id,key,value,type
 467564196,maxspeed,20 mph,regular
 467564196,name,Queen Street,regular
 467564196,note,should probably be represented as dual lines,regular
-467564196,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+467564196,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 467564196,source,Bing,regular
 467564197,highway,tertiary,regular
 467564197,lanes,4,regular
@@ -86870,7 +86870,7 @@ id,key,value,type
 467564197,maxspeed,20 mph,regular
 467564197,name,Queen Street,regular
 467564197,note,should probably be represented as dual lines,regular
-467564197,notes_reply,there is no central reservation so therefore it shouldn't be shown as separate lines for each direction,regular
+467564197,notes_reply,"there is no central reservation, so therefore it shouldn't be shown as separate lines for each direction",regular
 467564197,source,Bing,regular
 467564197,surface,asphalt,regular
 467564198,highway,tertiary,regular
@@ -88809,7 +88809,7 @@ id,key,value,type
 480094308,alt_name,Fountainbridge Community Garden,regular
 480094308,landuse,allotments,regular
 480094308,name,The Grove,regular
-480094308,note,still signed as of 2017-01-25. Garden still there behind locked door when surveyed,regular
+480094308,note,"still signed as of 2017-01-25. Garden still there, behind locked door when surveyed",regular
 480094308,source,survey,regular
 480094309,amenity,community_centre,regular
 480094309,name,The Grove Extra,regular
@@ -92101,13 +92101,13 @@ id,key,value,type
 487749383,leisure,garden,regular
 487749383,source,Bing,regular
 487749388,building,residential,regular
-487749388,description,building estimated from survey no images on Bing,regular
+487749388,description,"building estimated from survey, no images on Bing",regular
 487749388,source,survey,regular
 487749391,building,residential,regular
-487749391,description,building estimated from survey no images on Bing,regular
+487749391,description,"building estimated from survey, no images on Bing",regular
 487749391,source,survey,regular
 487749396,building,house,regular
-487749396,description,building estimated from survey no images on Bing,regular
+487749396,description,"building estimated from survey, no images on Bing",regular
 487749396,source,survey,regular
 487749401,building,garage,regular
 487749401,source,Bing,regular
@@ -94843,49 +94843,49 @@ id,key,value,type
 493022399,leisure,garden,regular
 493022399,source,Bing,regular
 493022400,barrier,wall,regular
-493022400,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022400,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022400,source,Bing,regular
 493022401,barrier,wall,regular
-493022401,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022401,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022401,source,Bing,regular
 493022402,barrier,wall,regular
-493022402,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022402,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022402,source,Bing,regular
 493022403,barrier,wall,regular
-493022403,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022403,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022403,source,Bing,regular
 493022404,building,residential,regular
 493022404,source,Bing,regular
 493022405,building,residential,regular
 493022405,source,Bing,regular
 493022406,barrier,wall,regular
-493022406,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022406,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022406,source,Bing,regular
 493022407,barrier,wall,regular
-493022407,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022407,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022407,source,Bing,regular
 493022408,barrier,wall,regular
-493022408,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022408,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022408,source,Bing,regular
 493022410,barrier,wall,regular
-493022410,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022410,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022410,source,Bing,regular
 493022412,barrier,wall,regular
-493022412,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022412,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022412,source,Bing,regular
 493022414,barrier,wall,regular
-493022414,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022414,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022414,source,Bing,regular
 493022415,building,house,regular
 493022415,source,Bing,regular
 493022416,barrier,wall,regular
-493022416,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022416,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022416,source,Bing,regular
 493022417,barrier,wall,regular
-493022417,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022417,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022417,source,Bing,regular
 493022418,barrier,wall,regular
-493022418,description,wall positions based on look of plots on Bing still under construction at the time of the photography so may not reflect what is on the ground now,regular
+493022418,description,"wall positions based on look of plots on Bing, still under construction at the time of the photography so may not reflect what is on the ground now",regular
 493022418,source,Bing,regular
 493022419,building,house,regular
 493022419,source,Bing,regular

@@ -1,0 +1,6 @@
+Resources used
+
+1. Udacity forum
+2. Case study code
+3. MySQL documentation
+4. Stack Overflow

@@ -1,3 +1,1 @@
-# there is a link already in the Jupyter Notebook as well as the pdf it produces
-# but this is included because the submission requires it
 http://www.openstreetmap.org/export#map=14/55.9427/-3.1858
